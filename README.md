@@ -18,7 +18,7 @@ VM-MSP (Vectorized Multilevel MSP) is a multi-objective optimization approach th
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vm-msp.git
+git clone https://github.com/afmsaif/vm-msp.git
 cd vm-msp
 
 # Install dependencies
@@ -250,37 +250,6 @@ If you use this implementation, please cite:
 }
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙋 FAQ
-
-**Q: How do I choose between UAS and USA optimization order?**
-A: Use UAS if ASR accuracy is your primary concern, USA if translation quality is more important.
-
-**Q: Can I use different languages than the CoVoST ones?**
-A: Yes! Simply modify the `languages` parameter in the config and ensure your dataloader provides the appropriate data.
-
-**Q: How much GPU memory is required?**
-A: Approximately 12.8-14.7 GB depending on whether efficient training is enabled.
-
-**Q: Can I use a different model architecture?**
-A: Yes, the implementation is model-agnostic. See the `models/` directory for examples of adapting different architectures.
-
-## 📧 Contact
-
-For questions or issues, please open a GitHub issue or contact the authors.
-
----
-
-**Note**: This implementation is based on the research paper and provides a framework for VM-MSP training. Actual model architectures (Conformer, Whisper) and data loading utilities need to be implemented based on your specific requirements.
