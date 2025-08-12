@@ -1,4 +1,4 @@
-# VM-MSP: Vectorized Multilevel Multi-objective Speech Processing
+# Objective Soups: Multilingual Multi-Task Modeling for Speech Processing
 
 Implementation of the VM-MSP algorithm from "Objective Soups: Multilingual Multi-Task Modeling for Speech Processing" for training multilingual speech recognition and translation models on CoVoST v2 dataset.
 
