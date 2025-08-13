@@ -124,19 +124,6 @@ config.optimization_order = "USA"
 # Expected: Higher BLEU, competitive WER
 ```
 
-## 📈 Performance Results
-
-Based on the paper's findings with CoVoST v2:
-
-| Method | Avg WER ↓ | Avg BLEU ↑ | Training Time |
-|--------|-----------|------------|---------------|
-| Two-stage | 25.3% | 22.7 | 3.5h/epoch |
-| VS-MSP | 24.6% | 23.1 | 4.1h/epoch |
-| VC-MSP | 24.0% | 24.0 | 4.1h/epoch |
-| **VM-MSP (UAS)** | **23.6%** | 24.6 | 4.1h/epoch |
-| **VM-MSP (USA)** | 23.9% | **24.9** | 4.1h/epoch |
-| VM-MSP (Efficient) | 23.6% | 24.8 | 3.7h/epoch |
-
 ## 🔧 Configuration Options
 
 ### Core Parameters
